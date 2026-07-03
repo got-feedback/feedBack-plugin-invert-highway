@@ -1,6 +1,6 @@
-# Slopsmith Plugin: Invert Highway
+# feedBack Plugin: Invert Highway
 
-A plugin for [Slopsmith](https://github.com/got-feedback/feedback) that inverts the note highway, flipping the vertical stacking order of chord notes — just like the Invert Strings option in the chart.
+A plugin for [feedBack](https://github.com/got-feedback/feedback) that inverts the note highway, flipping the vertical stacking order of chord notes — just like the Invert Strings option in the chart.
 
 
 ## Features
@@ -15,8 +15,8 @@ A plugin for [Slopsmith](https://github.com/got-feedback/feedback) that inverts 
 ## Installation
 
 ```bash
-cd /path/to/slopsmith/plugins
-git clone https://github.com/masc0t/slopsmith-plugin-invert-highway.git invert_highway
+cd /path/to/feedBack/plugins
+git clone https://github.com/got-feedback/feedBack-plugin-invert-highway.git invert_highway
 docker compose restart
 ```
 
@@ -29,11 +29,10 @@ docker compose restart
 
 ## Requirements
 
-Requires Slopsmith with highway inversion support (`highway.setInverted` / `highway.getInverted` API).
+Requires feedBack with highway inversion support (`highway.setInverted` / `highway.getInverted` API).
 
 ## Other Plugins
 
-- [Virtual Capo](https://github.com/masc0t/slopsmith-plugin-midi-capo) — auto-send MIDI pitch shift to match each song's tuning during playback (amp modellers)
 
 ## License
 
